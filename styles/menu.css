@@ -1,0 +1,26 @@
+/* make sidebar nav vertical */ 
+body
+{
+background-repeat:no-repeat;
+background-size: 100%;
+}
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: inline;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: inline;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
